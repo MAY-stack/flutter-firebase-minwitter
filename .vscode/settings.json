@@ -1,0 +1,6 @@
+{
+"dart.customDevTools": {},
+"dart.devToolsLocation": "beside",
+"dart.devToolsReuseWindows": true,
+"dart.devToolsBrowser": "default"
+}
