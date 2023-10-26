@@ -27,10 +27,11 @@ class _MainScreenState extends State<MainScreen> {
     FirebaseAuth.instance.authStateChanges().listen((User? user) {
       if (user == null) {
         print('User is currently signed out!');
-      } else {
         setState(() {
-          isLoading = false;
+          isLoading = true;
         });
+      } else {
+        isLoading = true;
       }
     });
 
